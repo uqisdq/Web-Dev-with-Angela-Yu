@@ -1,0 +1,48 @@
+body{
+  background-color: #AAF0D1;
+}
+
+hr{
+  background-color: none;
+  /* border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: dotted; */
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #3EB489;
+  height: 1px;
+  width: 30%;
+}
+
+h1{
+  color: #3EB489;
+}
+
+h3{
+  color: #3EB489;
+}
+
+.t1{
+  background-color: grey;
+}
+
+.t2{
+  background-color: #3EB489;
+  transition: background-color 2s;
+}
+.t2:hover{
+  background-color: white;
+}
+
+.imggw{
+  filter: grayscale(100%);
+  -webkit-filter:grayscale(100%);
+}
+
+.imggw:hover{
+  filter: grayscale(0%);
+  -webkit-filter:grayscale(0%);
+  transition-property: filter,-webkit-filter;
+  transition-duration: 2s;
+}
