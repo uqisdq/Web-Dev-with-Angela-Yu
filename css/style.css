@@ -1,5 +1,6 @@
 body{
   background-color: #AAF0D1;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr{
@@ -28,6 +29,12 @@ h1{
 }
 
 h2{
+  color: #3EB489;
+  font-size : 1.625rem;
+  margin : 10px auto 0 auto;
+  font-family: 'Sacramento',cursive;
+}
+.intro{
   color:#3EB489;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
@@ -37,6 +44,7 @@ h2{
 
 h3{
   color: #3EB489;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .t1{
@@ -49,10 +57,6 @@ h3{
 }
 .t2:hover{
   background-color: white;
-}
-
-.skills{
-
 }
 
 .imggw{
@@ -90,7 +94,7 @@ h3{
 
 .skillRow{
   width: 60%;
-  margin: 150px auto;
+  margin: 150px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
@@ -99,4 +103,76 @@ h3{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.myButton {
+	box-shadow: 0 0 0 2px #656870;
+	background:linear-gradient(to bottom, #4a5363 5%, #000000 100%);
+	background-color:#4a5363;
+	border-radius:10px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 10px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #000000;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #000000 5%, #4a5363 100%);
+	background-color:#000000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contacts{
+  text-align: center;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  text-align: center;
+  padding : 5px 0 20px;
+}
+
+.introBottom{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.intro-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.intro-link:hover{
+  color: #EAF6F6;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.projects-link{
+  color: #3EB489;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.projects-link:hover{
+  color: #EAF6F6;
 }
