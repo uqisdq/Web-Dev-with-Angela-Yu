@@ -15,8 +15,24 @@ hr{
   width: 30%;
 }
 
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1{
   color: #3EB489;
+  font-size : 2.625rem;
+  margin : 50px auto 0 auto;
+  font-family: 'Sacramento',cursive;
+}
+
+h2{
+  color:#3EB489;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: italic;
 }
 
 h3{
@@ -35,6 +51,10 @@ h3{
   background-color: white;
 }
 
+.skills{
+
+}
+
 .imggw{
   filter: grayscale(100%);
   -webkit-filter:grayscale(100%);
@@ -45,4 +65,38 @@ h3{
   -webkit-filter:grayscale(0%);
   transition-property: filter,-webkit-filter;
   transition-duration: 2s;
+}
+
+.projectsImg{
+  width:30%;
+  border-radius: 25px;
+  float: left;
+  margin-right: 30px
+}
+
+.selfProjects{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skillRowTop{
+  width: 60%;
+  margin: auto auto 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skillRow{
+  width: 60%;
+  margin: 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.centerer{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
