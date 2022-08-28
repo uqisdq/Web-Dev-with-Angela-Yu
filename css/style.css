@@ -133,6 +133,11 @@ h3{
   text-align: center;
 }
 
+.maps{
+  text-align: center;
+  align-items: center;
+}
+
 .bottom-container{
   background-color: #66BFBF;
   text-align: center;
